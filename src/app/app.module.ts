@@ -13,6 +13,7 @@ import { RightSideBarComponent } from './right-side-bar/right-side-bar.component
 import { SettleUpComponent } from './settle-up/settle-up.component';
 import { UserProfileComponent } from './user-profile/user-profile.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,

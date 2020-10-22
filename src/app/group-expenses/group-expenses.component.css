@@ -1,0 +1,316 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    height: 1091px;
+    display: flex;
+    flex-direction: column;
+  }
+/* Containers */
+  
+  .bottom-container {
+    display: flex;
+    background-color: whitesmoke;
+  
+    height: 90.7%;
+    width: 100%;
+  }
+  
+  .bc-left-space {
+    width: 15%;
+  
+  }
+  
+  .bc-left {
+    display: flex;
+    flex-direction: column;
+  
+    width: 56.5%;
+  
+  }
+  
+  .bc-left-upper {
+    display: flex;
+    height: 14.2%;
+  
+  }
+  
+  .bc-left-middle {
+    display: flex;
+    flex-direction: column;
+  
+    height: 57.14%;
+    background-color: white;
+  
+  }
+  
+  .bc-left-lower {
+    display: flex;
+    height: 28.57%;
+  
+  }
+  
+  .bc-right {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 28.5%;
+  
+  }
+  
+  /* Header Containers */
+  
+  .logoContainer {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+  
+  }
+  
+  .buttonBar {
+    flex-grow: 2;
+    align-items: center;
+    justify-content: center;
+  
+  
+  }
+  
+  .socials {
+    padding: 5px;
+  
+  }
+  
+  /* Header:Logo Containers */
+  
+  .logo {
+    padding-top: 30px;
+    padding-bottom: 26px;
+  
+  
+  }
+  
+  .app-logo-box {
+    padding-top: 19px;
+  }
+  
+  .app-logo-name {
+    padding-top: 60px;
+  
+    /* Style for "PayMe" */
+    color: #0149a1;
+    font-family: "Robo-Light", sans-serif;
+    font-size: 42px;
+    font-style: italic;
+    letter-spacing: normal;
+    line-height: 20.87px;
+    text-align: center;
+  }
+  
+  .app-logo-leaf {
+    padding-top: 18px;
+  }
+  
+  .buttonText {
+    flex-grow: 1;
+    align-items: center;
+  
+    color: #5d6981;
+    font-family: "Robo-Light", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 24px;
+    text-align: center;
+  
+  
+  }
+  
+  /* BC-Left-Upper */
+  
+  .trips-text {
+    display: flex;
+    align-items: flex-end;
+  
+    width: 70%;
+  
+    color: #acb2bd;
+    font-family: "Robo-Light", sans-serif;
+    font-size: 72px;
+  }
+  
+  .expense-button-container {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+  
+    width: 30%;
+  }
+  
+  .expense-button {
+    padding: 5px;
+  }
+  
+  /* BC-Left-Middle */
+  
+  .group-member-title {
+    display: flex;
+    align-items: center;
+  
+    height: 10%;
+    width: 100%;
+    background-color: #fafafa;
+  
+    color: #546a79;
+    font-family: "Robo-Light", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    font-style: normal;
+    padding: 10px;
+  
+  }
+  
+  .group-member-container {
+    display: flex;
+    flex-direction: column;
+  
+    height: 90%;
+    padding-right: 45px;
+    padding-left: 45px;
+  
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+  .group-member-row {
+    display: flex;
+    align-items: center;
+  
+    border-bottom: 1px lightblue dotted;
+  
+    height: 18%
+  }
+  
+  .group-member-row img {
+    padding: 10px;
+  }
+  
+  .group-member-row a {
+    font-family: Robo-Light, sans-serif;
+    color: #0a9fd4;
+    font-size: 22px;
+    text-decoration: none;
+  }
+  
+  .temp-see-all {
+    display: flex;
+    justify-content: center;
+  
+    font-family: Monaco, sans-serif;
+    color: blue;
+  
+  }
+  
+  /* BC Right */
+  
+  .padded-right-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+  
+    height: 65%;
+  }
+  
+  .right-container {
+    display: flex;
+  
+    background-color: white;
+    width: 65%;
+  
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  
+  
+  }
+  
+  .right-space {
+    height: 5%;
+    width: 65%;
+    padding: 10px;
+    background-color: transparent;
+  }
+  
+  /* BC-Right-Top */
+  
+  .bc-right-top {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  
+    height: 20%;
+  }
+  
+  .bc-right-top img {
+    height: 81px;
+    width: 81px;
+  
+    margin-left: 33px;
+  }
+  
+  .bc-right-top p {
+    text-align: center;
+    margin-left: 33px;
+  
+    font-family: Monaco, sans-serif;
+    font-size: 12px;
+  }
+  
+  /* BC-Right-Middle */
+  
+  .bc-right-middle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  
+    height: 25%;
+  }
+  
+  .friends-text {
+    font-family: sans-serif;
+    font-size: 20px;
+    color: blue;
+    margin-bottom: 10px;
+  }
+  
+  .bc-right-middle img {
+    height: 71px;
+    width: 73px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  
+  /* BC-Right-Bottom */
+  
+  .bc-right-bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  
+    height: 30%;
+  }
+  
+  .groups-list {
+    font-family: Robo-Light, sans-serif;
+    font-size: 18px;
+    list-style-type: circle;
+  }
+  
+  .groups-list li {
+    margin-top: 5px;
+  }
+  
