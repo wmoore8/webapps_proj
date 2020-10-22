@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "webappsProj"
+    }
+  },
+  "defaultProject": "webappsProj",
+  "cli": {
+    "analytics": "82480305-100c-4d6b-8b66-26cad129fa57"
+  }
 }
