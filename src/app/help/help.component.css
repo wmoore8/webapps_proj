@@ -1,0 +1,90 @@
+
+.main-page{
+  background-color:rgb(224, 221, 221);
+  position:absolute;
+  left: -3px;
+  top:99px;
+}
+
+.backround{
+  width: 1923px;
+  height: 991px;
+  position: absolute;
+  left:-3px;
+  top: 99px;
+}
+
+.base {
+  width: 1400px;
+  height: 752px;
+  position: absolute;
+  left: 270px;
+  top: 231px;
+}
+
+.help-center{
+width: 448px;
+height: 49px;
+color: #acb2bd;
+font-family: "Source Sans Pro Semibold";
+font-size: 72px;
+font-weight: 600;
+font-style: normal;
+letter-spacing: normal;
+line-height: 45px;
+text-align: left;
+text-transform: uppercase;
+position: absolute;
+left: 772px;
+top: 176px;
+}
+
+.name-logo{
+  position: absolute;
+  left: 504px;
+  top: 413px;
+}
+.name{
+  width: 454px;
+  height: 53px;
+  font-size: 24px;
+  position: absolute;
+  left: 502px;
+  top: 439px;
+}
+
+.email-logo{
+  position: absolute;
+  left: 991px;
+  top: 413px;
+}
+
+.email{
+  width: 454px;
+  height: 53px;
+  font-size: 24px;
+  position: absolute;
+  left: 991px;
+  top: 439px;
+}
+
+.message{
+  width: 943px;
+  height: 207px;
+  font-size: 24px;
+  position: absolute;
+  left: 502px;
+  top: 556px;
+}
+
+.message-logo{
+    position: absolute;
+    left: 502px;
+    top: 530px;
+}
+
+.send{
+  position: absolute;
+  left: 1249px;
+  top: 788px;
+}
