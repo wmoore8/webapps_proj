@@ -5,6 +5,7 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './right-side-bar.component.html',
   styleUrls: ['./right-side-bar.component.css']
 })
+
 export class RightSideBarComponent implements OnInit {
 
   constructor() { }
