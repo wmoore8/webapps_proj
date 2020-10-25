@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 1091px;
+  display: flex;
+  flex-direction: column;
+}
+.top-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  height: 9.3%;
+
+}
+
+/* Header Containers */
+
+.logoContainer {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+
+}
+
+.buttonBar {
+  flex-grow: 2;
+  align-items: center;
+  justify-content: center;
+
+
+}
+
+.socials {
+  padding: 5px;
+
+}
+
+/* Header:Logo Containers */
+
+.logo {
+  padding-top: 30px;
+  padding-bottom: 26px;
+
+
+}
+
+.app-logo-box {
+  padding-top: 19px;
+}
+
+.app-logo-name {
+  padding-top: 60px;
+
+  /* Style for "PayMe" */
+  color: #0149a1;
+  font-family: "Robo-Light", sans-serif;
+  font-size: 42px;
+  font-style: italic;
+  letter-spacing: normal;
+  line-height: 20.87px;
+  text-align: center;
+}
+
+.app-logo-leaf {
+  padding-top: 18px;
+}
+
+.buttonText {
+  flex-grow: 1;
+  align-items: center;
+
+  color: #5d6981;
+  font-family: "Robo-Light", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 24px;
+  text-align: center;
+
+
+}

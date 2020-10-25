@@ -12,6 +12,7 @@ import { MenuBarComponent } from './menu-bar/menu-bar.component';
 import { RightSideBarComponent } from './right-side-bar/right-side-bar.component';
 import { SettleUpComponent } from './settle-up/settle-up.component';
 import { UserProfileComponent } from './user-profile/user-profile.component';
+import { SamiraTestComponent } from './samira-test/samira-test.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { UserProfileComponent } from './user-profile/user-profile.component';
     MenuBarComponent,
     RightSideBarComponent,
     SettleUpComponent,
-    UserProfileComponent
+    UserProfileComponent,
+    SamiraTestComponent
   ],
   imports: [
     BrowserModule,
