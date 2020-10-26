@@ -1,4 +1,4 @@
- *{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -20,7 +20,6 @@ body {
 
 .bc-left-space {
   width: 25%;
-
 }
 
 .bc-left {
@@ -28,13 +27,11 @@ body {
   flex-direction: column;
 
   width: 56.5%;
-
 }
 
 .bc-left-upper {
   display: flex;
   height: 14.2%;
-
 }
 
 .bc-left-middle {
@@ -43,13 +40,11 @@ body {
 
   height: 57.14%;
   background-color: white;
-
 }
 
 .bc-left-lower {
   display: flex;
   height: 10.57%;
-
 }
 
 .bc-right {
@@ -57,7 +52,6 @@ body {
   justify-content: flex-start;
   flex-direction: column;
   width: 28.5%;
-
 }
 
 /* Header Containers */
@@ -66,20 +60,16 @@ body {
   display: flex;
   flex-direction: row;
   flex-grow: 1;
-
 }
 
 .buttonBar {
   flex-grow: 2;
   align-items: center;
   justify-content: center;
-
-
 }
 
 .socials {
   padding: 5px;
-
 }
 
 /* Header:Logo Containers */
@@ -87,8 +77,6 @@ body {
 .logo {
   padding-top: 30px;
   padding-bottom: 26px;
-
-
 }
 
 .app-logo-box {
@@ -124,18 +112,14 @@ body {
   letter-spacing: normal;
   line-height: 24px;
   text-align: center;
-
-
 }
 
 /* BC-Left-Upper */
 
-.trips-text {
+.dashboard-text {
   display: flex;
   align-items: flex-end;
-
   width: 70%;
-
   color: #acb2bd;
   font-family: "Robo-Light", sans-serif;
   font-size: 72px;
@@ -145,7 +129,7 @@ body {
   display: flex;
   align-items: center;
   flex-direction: row;
- /* width: 10%; */
+  /* width: 10%; */
 }
 
 .expense-button {
@@ -154,20 +138,12 @@ body {
 
 .dashboard-button-container {
   display: flex;
-  /*align-items: center;
-  flex-direction: row; */
+
   width: 10%;
 }
 .dashboard-button {
   padding: 12px;
-  /*padding-top : 20px;
-  padding-left : 0px;
-  padding-bottom: 20px;*/
-  /*margin-left: auto; */
-  /*display: flex;
-  align-items: center;
-  flex-direction: row; */
- 
+
 }
 
 /* BC-Left-Middle */
@@ -186,7 +162,6 @@ body {
   font-weight: 700;
   font-style: normal;
   padding: 10px;
-
 }
 
 .group-member-container {
@@ -211,13 +186,9 @@ body {
   font-size: 20px;
   font-weight: 900;
   font-style: normal;
- 
 
 }
-.image{
-  border-color: #e7e7e7;
-  border: 1px solid #e7e7e7;
-}
+
 .dashboard-member-container {
   display: flex;
   flex-direction: column;
@@ -228,53 +199,16 @@ body {
 
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-.mysecondbutton:hover {
-	
-  background-color:#1994AB; 
-  border:none;
-  display:inline-block;
+
+/* image */
+.image {
+
+  border: 0.5px grey solid;
+  border-color: #e7e7e7;
 }
 
-.mysecondbutton:focus {outline:0;}
-
- .mysecondbutton {
-  display: block;
-  border: solid white;
-  border-width: 0 10px;
-  border-radius: 7px;
-  background-color:#33B3FF;
-  color: white;
-  font-size: 18px;
-  
-  border : 0px solid;
-  padding: 25px ;
-  margin : auto;
- 
-  padding-top : 14px;
-  padding-left : 15px;
-  padding-bottom: 10px;
-  padding-right : 10px;
-  text-decoration:none;
-  line-height: 1.5em;
-  white-space: nowrap;
-  text-align: center;
-  
- }
- 
-
-.myfirstbutton:hover {
-	
-  background-color:  #6A6C6F;
-  border:none;
-  display:inline-block;
-  color: white;
-}
-
-.myfirstbutton:focus {outline:0;}
-
- .myfirstbutton {
-  /*background:url(/assets/icons/Rectangle_6.png) no-repeat;*/
- 
+/* BuTTONS */
+.settleUpButton {
 
   display: block;
   border: solid white;
@@ -283,110 +217,108 @@ body {
   background-color: #fafafa;
   color: grey;
   font-size: 18px;
-  border: 0.5px grey solid;
+  border: 2.5px grey solid;
   border-color: #e7e7e7;
-  padding: 25px ;
-  margin : auto;
-  
-  padding-top : 10px;
-  padding-left : 20px;
-  padding-bottom: 10px;
-  padding-right : 10px;
+  padding: 25px;
+  margin: auto;
 
-  text-decoration:none;
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+
+  text-decoration: none;
   line-height: 1.5em;
   white-space: nowrap;
-   text-align: center;
-  
- }
- 
-
-
- .mythirdbutton:hover {
-	
-  background-color:  #9B9BA1;
-  border:none;
-  display:inline-block;
+  text-align: center;
+  font-weight: bold;
+}
+.settleUpButton:hover {
+  background-color: #6a6c6f;
+  border: none;
+  display: inline-block;
   color: white;
+
 }
 
-.mythirdbutton:focus {outline:0;}
+.settleUpButton:focus {
+  outline: 0;
+}
 
- .mythirdbutton {
-  /*background:url(/assets/icons/Rectangle_6.png) no-repeat;*/
- 
 
+.addAnExpenseButton {
+  display: block;
+
+  background-color: #33b3ff;
+  color: white;
+
+
+  border: solid white;
+  border-width: 0 10px;
+  border-radius: 7px;
+
+  padding: 25px;
+  padding-top: 14px;
+  padding-left: 15px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+  margin: auto;
+
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 1.5em;
+  white-space: nowrap;
+  text-align: center;
+
+
+}
+
+.addAnExpenseButton:hover {
+  background-color: #1994ab;
+  border: none;
+  display: inline-block;
+}
+
+.addAnExpenseButton:focus {
+  outline: 0;
+}
+
+
+.dashboardButtons {
   display: block;
   border: solid white;
   border-width: 0 10px;
-  border-radius: 7px;  /*commented */
-  /*background-color: #E6E6EE;
-  background-color: white;
-  color: #33B3FF; */
-  color: #33B3FF;
+  border-radius: 7px;
+  background-color: #e6e6ee;
+  color: #33b3ff;
   font-size: 18px;
   border: 0.5px grey solid;
   border-color: #e7e7e7;
-  padding: 25px ;
-  margin : auto;
+  padding: 25px;
+  margin: auto;
   text-align: center;
-  padding-top : 10px;
-  padding-left : 25px;
+  padding-top: 10px;
+  padding-left: 25px;
   padding-bottom: 10px;
-  padding-right : 17px;
-
-  text-decoration:none;
+  padding-right: 17px;
+  text-decoration: none;
   line-height: 2em;
   white-space: nowrap;
-   text-align: center;
-   font-family: "Robo-Light", sans-serif;
-  
- }
- 
- .mybutton {
-  /*background:url(/assets/icons/Rectangle_6.png) no-repeat;*/
- 
-
-  display: block;
-  border: solid white;
-  border-width: 0 10px;
-  border-radius: 7px;  /*commented */
-  /*background-color: #E6E6EE;
-  background-color: white;
-  color: #33B3FF; */
-  /*background-color: grey;
-  color: #33B3FF; */
-  /*color: white; */
-  background-color: #33B3FF;
-  color: whitesmoke;
-  font-size: 18px;
-  border: 0.5px grey solid;
-  border-color: #e7e7e7;
-  padding: 25px ;
-  margin : auto;
   text-align: center;
-  padding-top : 10px;
-  padding-left : 25px;
-  padding-bottom: 10px;
-  padding-right : 17px;
+  font-family: "Robo-Light", sans-serif;
+  font-weight : bold ;
+}
 
-  text-decoration:none;
-  line-height: 2em;
-  white-space: nowrap;
-   text-align: center;
-   font-family: "Robo-Light", sans-serif;
-  
- }
- 
- .mybutton:hover {
-	
-  background-color:  #9B9BA1;
-  border:none;
-  display:inline-block;
+.dashboardButtons:hover {
+  background-color: #33b3ff;
+  border: none;
+  display: inline-block;
   color: white;
 }
 
-.mybutton:focus {outline:0;}
+.dashboardButtons:focus {
+  outline: 0;
+}
 
 .group-member-row {
   display: flex;
@@ -394,7 +326,7 @@ body {
 
   border-bottom: 1px lightblue dotted;
 
-  height: 18%
+  height: 18%;
 }
 
 .group-member-row img {
@@ -414,7 +346,6 @@ body {
 
   font-family: Monaco, sans-serif;
   color: blue;
-
 }
 
 /* BC Right */
@@ -424,7 +355,6 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
 
   height: 65%;
 }
@@ -436,8 +366,6 @@ body {
   width: 65%;
 
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-
-
 }
 
 .right-space {
@@ -517,7 +445,3 @@ body {
 .groups-list li {
   margin-top: 5px;
 }
-
-
-
-   
