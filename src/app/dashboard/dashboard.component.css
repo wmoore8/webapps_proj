@@ -200,12 +200,13 @@ body {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-/* image */
+/* IMAGES  */
 .image {
 
   border: 0.5px grey solid;
   border-color: #e7e7e7;
 }
+
 
 /* BuTTONS */
 .settleUpButton {
@@ -219,7 +220,7 @@ body {
   border-color: #e7e7e7;
 
   background-color: #fafafa;
-  color: grey;
+  color: black;
 
 
   padding: 25px;
@@ -233,7 +234,6 @@ body {
   line-height: 1.5em;
   white-space: nowrap;
   text-align: center;
-  font-weight: bold;
   font-size: 18px;
 }
 .settleUpButton:hover {
@@ -255,15 +255,16 @@ body {
   background-color: #33b3ff;
   color: white;
 
-  border: solid #33b3ff;
+  border: 0.5px #33b3ff;
   border-width: 0 10px;
   border-radius: 7px;
+  border-color: #e7e7e7;
 
   padding: 25px;
   padding-top: 14px;
-  padding-left: 15px;
+  padding-left: 10px;
   padding-bottom: 10px;
-  padding-right: 10px;
+  padding-right: 8px;
   margin: auto;
 
   text-decoration: none;
@@ -290,31 +291,33 @@ body {
 
 .dashboardButtons {
   display: block;
-  border: solid white;
+
   border-width: 0 10px;
   border-radius: 7px;
-  background-color: #e6e6ee;
-  color: #33b3ff;
-  font-size: 18px;
   border: 0.5px grey solid;
   border-color: #e7e7e7;
+
+  background-color: #33b3ff;
+  color: white;
+
   padding: 25px;
-  margin: auto;
-  text-align: center;
   padding-top: 10px;
   padding-left: 25px;
   padding-bottom: 10px;
   padding-right: 17px;
+  margin: auto;
+
   text-decoration: none;
+  text-align: center;
   line-height: 2em;
   white-space: nowrap;
-  text-align: center;
   font-family: "Robo-Light", sans-serif;
-  font-weight : bold ;
+  font-size: 18px;
+
 }
 
 .dashboardButtons:hover {
-  background-color: #33b3ff;
+  background-color: #3347ff;
   border: none;
   display: inline-block;
   color: white;
