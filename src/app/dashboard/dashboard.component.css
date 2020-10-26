@@ -211,27 +211,30 @@ body {
 .settleUpButton {
 
   display: block;
-  border: solid white;
+
+
   border-width: 0 10px;
   border-radius: 7px;
-  background-color: #fafafa;
-  color: grey;
-  font-size: 18px;
   border: 2.5px grey solid;
   border-color: #e7e7e7;
-  padding: 25px;
-  margin: auto;
 
+  background-color: #fafafa;
+  color: grey;
+
+
+  padding: 25px;
   padding-top: 10px;
   padding-left: 20px;
   padding-bottom: 10px;
   padding-right: 10px;
+  margin: auto;
 
   text-decoration: none;
   line-height: 1.5em;
   white-space: nowrap;
   text-align: center;
   font-weight: bold;
+  font-size: 18px;
 }
 .settleUpButton:hover {
   background-color: #6a6c6f;
@@ -252,8 +255,7 @@ body {
   background-color: #33b3ff;
   color: white;
 
-
-  border: solid white;
+  border: solid #33b3ff;
   border-width: 0 10px;
   border-radius: 7px;
 
@@ -271,12 +273,14 @@ body {
   text-align: center;
 
 
+
 }
 
 .addAnExpenseButton:hover {
-  background-color: #1994ab;
+  background-color: #176CEA;
   border: none;
   display: inline-block;
+
 }
 
 .addAnExpenseButton:focus {
