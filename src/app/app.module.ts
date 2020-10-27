@@ -25,7 +25,8 @@ import { UserProfileComponent } from './user-profile/user-profile.component';
     MenuBarComponent,
     RightSideBarComponent,
     SettleUpComponent,
-    UserProfileComponent
+    UserProfileComponent,
+
   ],
   imports: [
     BrowserModule,
