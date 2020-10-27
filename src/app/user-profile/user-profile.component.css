@@ -1,0 +1,35 @@
+div.profileBG {
+  position: fixed;
+  left: 1450px;
+  top:150px;
+  width: 368px;
+  height: 126px;
+}
+div.photo {
+  position: fixed;
+  left: 1460px;
+  top:170px;
+  width: 368px;
+  height: 126px;
+}
+div.name {
+  position: fixed;
+  left: 1580px;
+  top:170px;
+  width: 368px;
+  height: 126px;
+  font-family: Helvetica;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 12px;
+  color: #0149a1;
+}
+div.info {
+  position: fixed;
+  left: 1580px;
+  top:200px;
+  font-size: 12px;
+  width: 368px;
+  height: 126px;
+  line-height: 8px;
+}
