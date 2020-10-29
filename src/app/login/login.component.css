@@ -1,0 +1,290 @@
+.header{
+  height: 95px;
+
+}
+nav {
+  text-align: center;
+}
+nav ul{
+  margin:0;
+  padding:0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 70px;
+  padding-top: 25px;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+.main-page{
+  background-color:rgb(224, 221, 221);
+  position:absolute;
+  left: -3px;
+  top:99px;
+}
+.container {
+position: absolute;
+left: 178px;
+top: 247px;
+}
+
+.logo{
+  width:207px;
+  height:65 px;
+  position: absolute;
+  left: 293px;
+  top: 16px;
+}
+
+.home{
+  width: 50px;
+  height: 15px;
+  position: absolute;
+  left: 1005px;
+  top: 44px;
+
+}
+
+.About-Us {
+  width: 77px;
+  height: 15px;
+  position: absolute;
+  left: 1105px;
+  top: 44px;
+}
+
+.activity{
+  width: 62px;
+  height: 18px;
+  position: absolute;
+  left: 1216px;
+  top: 44px;
+}
+
+.Help{
+  width: 38px;
+  height: 18px;
+  position: absolute;
+  left: 1314px;
+  top: 44px;
+}
+
+.Sign-Up{
+  width: 65px;
+  height: 18px;
+  position: absolute;
+  left: 1388px;
+  top: 44px;
+
+}
+
+.twitter{
+  float: right;
+  width: 46px;
+  height: 46px;
+  position: absolute;
+  left:1588px;
+  top: 28px;
+
+}
+
+.facebook{
+  float: right;
+  width: 46px;
+  height: 46px;
+  position: absolute;
+  left:1527px;
+  top: 28px;
+}
+
+.iphone {
+  width: 965px;
+  height: 1053px;
+  position: absolute;
+  left: 763px;
+  top: 200px;
+}
+
+.welcome{
+  width:728px;
+  height: 109px;
+  position: absolute;
+  left: 981px;
+  top: 225px;
+}
+
+.names {
+  width:691px;
+  height: 11px;
+  position: absolute;
+  left:1000px;
+  top: 344px;
+}
+
+.signInBorder{
+  width: 640px;
+  height: 640px;
+  position: absolute;
+  left: 178px;
+  top: 247px;
+}
+
+.signIn{
+  width: 156px;
+  height: 31px;
+  position: absolute;
+  left: 404px;
+  top:346px;
+}
+.LogIn{
+  width: 221px;
+  height: 59px;
+  position: absolute;
+  left: 390px;
+  top:703px;
+}
+
+.none{
+  width: 145px;
+  height: 11px;
+  position: absolute;
+  left: 430px;
+  top: 780px;
+}
+
+
+.forgot{
+  width:100px;
+  height: 14px;
+  position: absolute;
+  left: 619px;
+  top:573px;
+}
+
+.email{
+  width: 48px;
+  height: 10px;
+  position: absolute;
+  top: 443px;
+  left: 277px;
+
+}
+
+.password{
+  width: 79px;
+  height: 11px;
+  position: absolute;
+  left: 277px;
+  top: 576px;
+}
+
+.emailBox{
+  width: 441px;
+  height: 49px;
+  position: absolute;
+  left:278px;
+  top: 468px;
+
+}
+
+.passwordField{
+  width: 441px;
+  height: 49px;
+  position: absolute;
+  left:278px;
+  top: 599px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 1091px;
+  display: flex;
+  flex-direction: column;
+}
+.top-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  height: 9.3%;
+
+}
+
+/* Header Containers */
+
+.logoContainer {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+
+}
+
+.buttonBar {
+  flex-grow: 2;
+  align-items: center;
+  justify-content: center;
+
+
+}
+
+.socials {
+  padding: 5px;
+
+}
+
+/* Header:Logo Containers */
+
+.logo {
+  padding-top: 30px;
+  padding-bottom: 26px;
+
+
+}
+
+.app-logo-box {
+  padding-top: 19px;
+}
+
+.app-logo-name {
+  padding-top: 60px;
+
+  /* Style for "PayMe" */
+  color: #0149a1;
+  font-family: "Robo-Light", sans-serif;
+  font-size: 42px;
+  font-style: italic;
+  letter-spacing: normal;
+  line-height: 20.87px;
+  text-align: center;
+}
+
+.app-logo-leaf {
+  padding-top: 18px;
+}
+
+.buttonText {
+  flex-grow: 1;
+  align-items: center;
+
+  color: #5d6981;
+  font-family: "Robo-Light", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 24px;
+  text-align: center;
+
+
+}
+

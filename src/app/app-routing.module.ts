@@ -1,8 +1,20 @@
+import { HelpComponent } from './help/help.component';
+import { LoginComponent } from './login/login.component';
+import { GroupExpensesComponent } from './group-expenses/group-expenses.component';
+import { AddExpenseComponent } from './add-expense/add-expense.component';
+import { DashboardComponent } from './dashboard/dashboard.component';
+
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
-const routes: Routes = [];
-
+const routes: Routes = [
+  {path: 'dashboard', component:DashboardComponent},
+  {path: 'addExpense', component:AddExpenseComponent},
+  {path: 'groupExpense', component:GroupExpensesComponent},
+  {path: 'login',component:LoginComponent},
+  {path: 'help', component: HelpComponent},
+  {path: '', redirectTo: '/login', pathMatch: 'full'}
+];
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule]

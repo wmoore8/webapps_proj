@@ -2,103 +2,116 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    position: absolute;
   }
-  
+
   body {
     height: 1091px;
     display: flex;
     flex-direction: column;
+    position: absolute;
   }
 /* Containers */
-  
+
   .bottom-container {
     display: flex;
     background-color: whitesmoke;
-  
+    position: absolute;
+
     height: 90.7%;
     width: 100%;
   }
-  
+
   .bc-left-space {
     width: 15%;
-  
+    position: absolute;
+
   }
-  
+
   .bc-left {
     display: flex;
     flex-direction: column;
-  
+
     width: 56.5%;
-  
+    position: absolute;
+
   }
-  
+
   .bc-left-upper {
     display: flex;
     height: 14.2%;
-  
+    position: absolute;
+
   }
-  
+
   .bc-left-middle {
     display: flex;
     flex-direction: column;
-  
+
     height: 57.14%;
     background-color: white;
-  
+    position: absolute;
+
   }
-  
+
   .bc-left-lower {
     display: flex;
     height: 28.57%;
-  
+    position: absolute;
+
   }
-  
+
   .bc-right {
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
     width: 28.5%;
-  
+    position: absolute;
+
   }
-  
+
   /* Header Containers */
-  
+
   .logoContainer {
     display: flex;
     flex-direction: row;
     flex-grow: 1;
-  
+    position: absolute;
+
   }
-  
+
   .buttonBar {
     flex-grow: 2;
     align-items: center;
     justify-content: center;
-  
-  
+    position: absolute;
+
   }
-  
+
   .socials {
     padding: 5px;
-  
+    position: absolute;
+
   }
-  
+
   /* Header:Logo Containers */
-  
+
   .logo {
     padding-top: 30px;
     padding-bottom: 26px;
-  
-  
+    position: absolute;
+
+
   }
-  
+
   .app-logo-box {
     padding-top: 19px;
+    position: absolute;
   }
-  
+
   .app-logo-name {
     padding-top: 60px;
-  
+
     /* Style for "PayMe" */
     color: #0149a1;
     font-family: "Robo-Light", sans-serif;
@@ -107,16 +120,18 @@
     letter-spacing: normal;
     line-height: 20.87px;
     text-align: center;
+    position: absolute;
   }
-  
+
   .app-logo-leaf {
     padding-top: 18px;
+    position: absolute;
   }
-  
+
   .buttonText {
     flex-grow: 1;
     align-items: center;
-  
+
     color: #5d6981;
     font-family: "Robo-Light", sans-serif;
     font-size: 20px;
@@ -125,192 +140,226 @@
     letter-spacing: normal;
     line-height: 24px;
     text-align: center;
-  
-  
+    position: absolute;
+
+
   }
-  
+
   /* BC-Left-Upper */
-  
+
   .trips-text {
     display: flex;
     align-items: flex-end;
-  
+
     width: 70%;
-  
+
     color: #acb2bd;
     font-family: "Robo-Light", sans-serif;
     font-size: 72px;
+    position: absolute;
   }
-  
+
   .expense-button-container {
     display: flex;
     align-items: center;
     flex-direction: row;
-  
+
     width: 30%;
+    position: absolute;
   }
-  
+
   .expense-button {
     padding: 5px;
+    position: absolute;
   }
-  
+
   /* BC-Left-Middle */
-  
+
   .group-member-title {
     display: flex;
     align-items: center;
-  
+
     height: 10%;
     width: 100%;
     background-color: #fafafa;
-  
+
     color: #546a79;
     font-family: "Robo-Light", sans-serif;
     font-size: 20px;
     font-weight: 700;
     font-style: normal;
     padding: 10px;
-  
+    position: absolute;
+
   }
-  
+
   .group-member-container {
     display: flex;
     flex-direction: column;
-  
+
     height: 90%;
     padding-right: 45px;
     padding-left: 45px;
-  
+
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    position: absolute;
   }
-  
+
   .group-member-row {
     display: flex;
     align-items: center;
-  
+
     border-bottom: 1px lightblue dotted;
-  
-    height: 18%
+
+    height: 18%;
+    position: absolute;
+
   }
-  
+
   .group-member-row img {
     padding: 10px;
+    position: absolute;
   }
-  
+
   .group-member-row a {
     font-family: Robo-Light, sans-serif;
     color: #0a9fd4;
     font-size: 22px;
     text-decoration: none;
+    position: absolute;
   }
-  
+
   .temp-see-all {
     display: flex;
     justify-content: center;
-  
+
     font-family: Monaco, sans-serif;
     color: blue;
-  
+    position: absolute;
+
   }
-  
+
   /* BC Right */
-  
+
   .padded-right-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-  
-  
+
+
     height: 65%;
+    position: absolute;
   }
-  
+
   .right-container {
     display: flex;
-  
+
     background-color: white;
     width: 65%;
-  
+
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  
-  
+    position: absolute;
+
+
   }
-  
+
   .right-space {
     height: 5%;
     width: 65%;
     padding: 10px;
     background-color: transparent;
+    position: absolute;
   }
-  
+
   /* BC-Right-Top */
-  
+
   .bc-right-top {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-  
+
     height: 20%;
+    position: absolute;
   }
-  
+
   .bc-right-top img {
     height: 81px;
     width: 81px;
-  
+    position: absolute;
     margin-left: 33px;
   }
-  
+
   .bc-right-top p {
     text-align: center;
     margin-left: 33px;
-  
+
     font-family: Monaco, sans-serif;
     font-size: 12px;
+    position: absolute;
   }
-  
+
   /* BC-Right-Middle */
-  
+
   .bc-right-middle {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-  
+
     height: 25%;
+    position: absolute;
   }
-  
+
   .friends-text {
     font-family: sans-serif;
     font-size: 20px;
     color: blue;
     margin-bottom: 10px;
+    position: absolute;
   }
-  
+
   .bc-right-middle img {
     height: 71px;
     width: 73px;
     margin-left: 5px;
     margin-right: 5px;
+    position: absolute;
   }
-  
+
   /* BC-Right-Bottom */
-  
+
   .bc-right-bottom {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-  
+
     height: 30%;
+    position: absolute;
   }
-  
+
   .groups-list {
     font-family: Robo-Light, sans-serif;
     font-size: 18px;
     list-style-type: circle;
+    position: absolute;
   }
-  
+
   .groups-list li {
     margin-top: 5px;
+    position: absolute;
   }
-  
+
+
+  /*fixed version*/
+  div.title{
+    position: fixed;
+    left: 1000px;
+    top:170px;
+    width: 368px;
+    height: 126px;
+    color: #0149a1;
+    position: absolute;
+
+  }

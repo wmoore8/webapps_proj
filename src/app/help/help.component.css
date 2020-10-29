@@ -1,7 +1,7 @@
 
 .main-page{
   background-color:rgb(224, 221, 221);
-  position:absolute;
+  position:relative;
   left: -3px;
   top:99px;
 }
@@ -9,7 +9,7 @@
 .backround{
   width: 1923px;
   height: 991px;
-  position: absolute;
+  position: relative;
   left:-3px;
   top: 99px;
 }
@@ -17,7 +17,7 @@
 .base {
   width: 1400px;
   height: 752px;
-  position: absolute;
+  position: relative;
   left: 270px;
   top: 231px;
 }
@@ -34,13 +34,13 @@ letter-spacing: normal;
 line-height: 45px;
 text-align: left;
 text-transform: uppercase;
-position: absolute;
+position: relative;
 left: 772px;
 top: 176px;
 }
 
 .name-logo{
-  position: absolute;
+  position: relative;
   left: 504px;
   top: 413px;
 }
@@ -48,13 +48,13 @@ top: 176px;
   width: 454px;
   height: 53px;
   font-size: 24px;
-  position: absolute;
+  position: relative;
   left: 502px;
   top: 439px;
 }
 
 .email-logo{
-  position: absolute;
+  position: relative;
   left: 991px;
   top: 413px;
 }
@@ -63,7 +63,7 @@ top: 176px;
   width: 454px;
   height: 53px;
   font-size: 24px;
-  position: absolute;
+  position: relative;
   left: 991px;
   top: 439px;
 }
@@ -72,19 +72,19 @@ top: 176px;
   width: 943px;
   height: 207px;
   font-size: 24px;
-  position: absolute;
+  position: relative;
   left: 502px;
   top: 556px;
 }
 
 .message-logo{
-    position: absolute;
+    position: relative;
     left: 502px;
     top: 530px;
 }
 
 .send{
-  position: absolute;
+  position: relative;
   left: 1249px;
   top: 788px;
 }
