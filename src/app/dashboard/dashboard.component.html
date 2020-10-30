@@ -10,13 +10,19 @@
 
         <div class="expense-button-container">
           <div class="expense-button">
-            <button  class="addAnExpenseButton" name="button">ADD AN EXPENSE</button>
+            <a href ="addExpense">
+              <button  class="addAnExpenseButton" name="button" >ADD AN EXPENSE</button>
+            </a>
+
 
           </div>
 
 
           <div class="expense-button-container">
-            <button  class="settleUpButton" name="button">SETTLE UP</button>
+            <a href="groupExpense">
+              <button  class="settleUpButton" name="button" >SETTLE UP</button>
+            </a>
+
           </div>
         </div>
       </div>
@@ -108,3 +114,4 @@
     <div class="bc-right"></div>
   </div>
 </body>
+<router-outlet></router-outlet>

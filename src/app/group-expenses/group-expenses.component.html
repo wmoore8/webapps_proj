@@ -15,14 +15,18 @@
         </div>
 
         <div class="expense-button-container">
+            <a href="addExpense">
+              <div class="expense-button">
+                <img src="assets/group-expenses/ADD_AN_EXPENSE.svg" alt="expenseButton"/>
+                </div>
+            </a>
 
-            <div class="expense-button">
-            <img src="assets/group-expenses/ADD_AN_EXPENSE.svg" alt="expenseButton"/>
-            </div>
+            <a  href="settleUp">
+              <div class="expense-button">
+                <img src="assets/group-expenses/sETTLE_UP.svg" alt="settleUpButton"/>
+                </div>
+            </a>
 
-            <div class="expense-button">
-            <img src="assets/group-expenses/sETTLE_UP.svg" alt="settleUpButton"/>
-            </div>
 
         </div>
 
@@ -89,3 +93,6 @@
     </div>
 
 </body>
+<router-outlet></router-outlet>
+<app-right-side-bar></app-right-side-bar>
+<app-user-profile></app-user-profile>

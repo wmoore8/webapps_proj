@@ -1,3 +1,4 @@
+import { SettleUpComponent } from './settle-up/settle-up.component';
 import { HelpComponent } from './help/help.component';
 import { LoginComponent } from './login/login.component';
 import { GroupExpensesComponent } from './group-expenses/group-expenses.component';
@@ -13,6 +14,8 @@ const routes: Routes = [
   {path: 'groupExpense', component:GroupExpensesComponent},
   {path: 'login',component:LoginComponent},
   {path: 'help', component: HelpComponent},
+  {path: 'addExpense',component: AddExpenseComponent},
+  {path: 'settleUp', component: SettleUpComponent},
   {path: '', redirectTo: '/login', pathMatch: 'full'}
 ];
 @NgModule({
