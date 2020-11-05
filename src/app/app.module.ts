@@ -15,6 +15,8 @@ import { UserProfileComponent } from './user-profile/user-profile.component';
 import { RouterModule, Routes } from '@angular/router';
 import { LoginComponent } from './login/login.component';
 import { AppRoutingModule } from './app-routing.module';
+import { PaypalComponent } from './paypal/paypal.component';
+import { NgxPayPalModule } from 'ngx-paypal';
 
 
 
@@ -32,11 +34,12 @@ import { AppRoutingModule } from './app-routing.module';
     SettleUpComponent,
     UserProfileComponent,
     LoginComponent,
-
-  ],
+      PaypalComponent
+   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
+    NgxPayPalModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
