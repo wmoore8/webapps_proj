@@ -1,79 +1,81 @@
 
 
-<div class="Add_an_expense">
-  <img src="assets/images/Add_an_expense.png" alt="Add an expense text" >
+<link rel="stylesheet" href=
+"https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+    <script src=
+"https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+    </script>
+
+    <script src=
+"https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js">
+    </script>
+
+    <script src=
+"https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js">
+    </script>
+
+<style>
+  body {
+    font-family: Source Sans Pro Semibold;;
+  }
+  </style>
+
+
+ <div class="container-fluid" style="width: 100%;">
+  <p class="page_title card-subtitle card-text" style="font-size : 60px; position:relative;top:100px;left:300px; " >ADD AN EXPENSE</p>
 </div>
 
 
-<div class="BG">
-  <div class="Textfields">
-    <img src="assets/images/Textfields.png" alt="Description Textfields">
-  </div>
-  <div class="US">
-    <img src="assets/images/US$.png" alt="US$ Icon">
-  </div>
-  <div class="_0">
-    <img src="assets/images/0.png" alt="money placeholder" >
-  </div>
-  <div class="coner_star">
-    <img src="assets/images/coner_star.png" alt="coner star decorate" >
-  </div>
-  <div class="Description">
-    <img src="assets/images/Description.png" alt="Description text" >
-  </div>
-  <div class="decoration_line">
-    <img src="assets/images/decoration_line.png" alt="Decoration line" >
-  </div>
+<div class="col-md-7 mb-3" style="position:relative;top:110px;left:299px; height: 55rem;">
+    <div class="card" style="width: 100%; height: 30rem;">
 
 
-  <div class="Type_some_description">
-    <img src="assets/images/Type_some_description.png" alt="Type some description">
+    <div class="card-header"style="width: 100%; height: 5rem;">
+
+
+      <p class="page_title card-subtitle card-text">With you and :</p>
+      <button type="button" class="btn btn-primary btn-circle btn-md" style="font-size : 20px;" >+</button>
+
+
   </div>
 
-  <div class="Rectangle_2_copy_6">
-    <div class="With_you_and_">
-      <img src="assets/images/With_you_and_.png" alt="With you and text">
-    </div>
-    <div class="Layer_23">
-      <img src="assets/images/Layer_23.png" alt="share people temp" >
-    </div>
-    <div class="Layer_40">
-      <img src="assets/images/Layer_40.png" alt="profile name" >
-    </div>
-    <div class="people_button">
-      <img src="assets/images/add-people_button.png" alt="Add people button" >
-    </div>
-    <div class="Joshua_Calloway">
-      <img src="assets/images/Joshua_Calloway.png" alt="share people temp" >
+    <div class="card-body">
+
+
+  <div class="container-fluid" style="width: 70%;">
+      <div class="input-group mb-3" style=" position:relative;top:30px;" >
+        <div class="input-group-prepend" >
+          <span class="input-group-text">US$</span>
+        </div>
+        <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)" style=" height: 5rem;">
+        <div class="input-group-append">
+
+
+        </div>
+      </div>
     </div>
 
-    <div class="Jordi_Prims">
-      <img src="assets/images/Jordi_Prims.png" alt="profile name">
+    <div class="container-fluid" style="width: 70%; position:relative;top:50px;">
+    <div class="form-group">
+      <label for="name" class="control-label" style="color: #acb2bd; font-size: 16px;">Description: </label>
+      <input type="text1" name="name" class="form-control" id="name" >
     </div>
-
-    <!-- <div class="description_blue">
-      <img src="assets/images/description_blue.png" alt="description blue background" >
-    </div> -->
-    <img src="assets/images/Rectangle_2_copy_6.png" alt="expense gray background">
-
-  </div>
-
-  <div class="Btn_expense">
-    <img src="assets/images/Btn_expense.png" alt="Btn_expense" >
-  </div>
-  <div class="Paid_by_you_and_split_equally">
-    <img src="assets/images/Paid_by_you_and_split_equally.png" alt="Paid by you" >
   </div>
 
 
+    <div class="container-fluid" style="width: 100%; position:relative;top:90px;">
+      <div class="col-sm-12 text-center">
+      <!-- <button type="button" class="btn btn-primary btn-lg">Paid by you and split equally</button> -->
 
-
-  <img src="assets/images/BG.png" alt="expense background">
+      <button class="button">Paid by you and split equally</button>
+    </div>
+    </div>
+    </div>
+  </div>
 
 </div>
+
 <app-right-side-bar></app-right-side-bar>
 <app-user-profile></app-user-profile>
 <router-outlet></router-outlet>
-
-
-

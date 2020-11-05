@@ -1,3 +1,82 @@
+h1 {
+  color:rgb(1, 73, 161);
+}
+.xyz {
+  background-size: auto;
+  text-align: center;
+  padding-top: 100px;
+}
+.btn-circle.btn-sm {
+  width: 30px;
+  height: 30px;
+  padding: 6px 0px;
+  border-radius: 15px;
+  font-size: 8px;
+  text-align: center;
+}
+.btn-circle.btn-md {
+  position: absolute;
+  bottom: 415px;
+  right: 10px;
+
+  background-color: #0149a1;
+  width: 50px;
+  height: 50px;
+  padding: 7px 10px;
+  border-radius: 25px;
+  font-size: 10px;
+  text-align: center;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
+}
+.btn-circle.btn-xl {
+  width: 70px;
+  height: 70px;
+  padding: 10px 16px;
+  border-radius: 35px;
+  font-size: 12px;
+  text-align: center;
+}
+
+.btn-circle.btn-md:hover {
+  background-color: #2EE59D;
+  box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+}
+
+.page_title {
+  position: absolute;
+  bottom: 415px;
+  left: 15px;
+  font-family: 'Noto Sans', sans-serif;
+	color: #acb2bd;
+
+	font-size: 30px;
+	font-weight: 600;
+	line-height: 45px;
+
+
+}
+
+
+.setPlace{
+  display: flex;
+  flex-direction: column;
+
+  height: 90%;
+  padding-right: 45px;
+  padding-left: 45px;
+}
+
+
+.group-member-container {
+  display: flex;
+  flex-direction: column;
+
+  height: 90%;
+  padding-right: 45px;
+  padding-left: 45px;
+
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
 
 
 .Add_an_expense {
@@ -6,124 +85,52 @@
   left: 299px;
 }
 
-.Rectangle_2_copy_6 {
-  position: relative;
-  top: 0px;
-  left: 0px;
-}
-
-.BG {
-  position: relative;
-  top: 0px;
-  left: 296px;
-}
-.With_you_and_ {
-  position: relative;
-  top: 60px;
-  left: 40px;
+.button:hover {
+  background-color: #2EE59D;
+  box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+  color: #fff;
+  transform: translateY(-7px);
 }
 
 
-.Textfields {
-  position: relative;
-  top: 380px;
-  left: 280px;
+.button {
+  width: 340px;
+  height: 45px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  color:  #fff;
+  background-color: #02baf2;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+  }
+
+
+
+input[type="text1"],
+select.form-control {
+  font-size: 16px;
+  color:  #acb2bd;
+  background: transparent;
+  border: none;
+  border-bottom: 2px dashed #acb2bd;
+
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border-radius: 0;
 }
 
-
-.description_blue {
-  position: relative;
-  top: 384px;
-  left: 611px;
+input[type="text1"]:focus,
+select.form-control:focus {
+  font-size: 18px;
+  color:  #acb2bd;
+  -webkit-box-shadow: none;
+  box-shadow: none;
 }
-
-
-.US {
-  position: relative;
-  top: 325px;
-  left: 300px;
-}
-
-
-._0 {
-  position: absolute;
-  top: 400px;
-  left: 400px;
-}
-
-
-.coner_star {
-  position: absolute;
-  top: 378px;
-  left: 700px;
-}
-
-
-.Description {
-  position: absolute;
-  top: 503px;
-  left: 280px;
-}
-
-.decoration_line {
-  position: absolute;
-  top: 530px;
-  left: 280px;
-}
-
-
-
-.Type_some_description {
-  position: absolute;
-  top: 503px;
-  left: 450px;
-}
-
-
-.people_button {
-  position: absolute;
-  top: 50px;
-  left: 980px;
-}
-
-
-.Btn_expense {
-  position: absolute;
-  top: 604px;
-  left: 350px;
-}
-
-
-.Paid_by_you_and_split_equally {
-  position: absolute;
-  top: 610px;
-  left: 370px;
-}
-
-.Layer_23 {
-  position: absolute;
-  top: 50px;
-  left: 300px;
-}
-.Layer_40 {
-  position: absolute;
-  top: 50px;
-  left: 500px;
-}
-
-.Joshua_Calloway {
-  position: absolute;
-  top: 60px;
-  left: 350px;
-}
-
-
-
-.Jordi_Prims {
-  position: absolute;
-  top: 60px;
-  left: 560px;
-}
-
-
 
