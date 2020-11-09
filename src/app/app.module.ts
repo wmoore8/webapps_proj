@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { FormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
 
@@ -33,6 +34,7 @@ import { NgxPayPalModule } from 'ngx-paypal';
     RightSideBarComponent,
     SettleUpComponent,
     UserProfileComponent,
+
     LoginComponent,
       PaypalComponent
    ],
@@ -40,6 +42,8 @@ import { NgxPayPalModule } from 'ngx-paypal';
     BrowserModule,
     AppRoutingModule,
     NgxPayPalModule,
+    FormsModule,
+
   ],
   providers: [],
   bootstrap: [AppComponent]

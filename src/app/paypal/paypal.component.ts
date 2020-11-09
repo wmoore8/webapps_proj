@@ -1,6 +1,8 @@
 import {
   Component,
-  OnInit
+  OnInit,
+  Input,
+  Output
 } from '@angular/core';
 import {
   IPayPalConfig,
@@ -13,14 +15,20 @@ import {
   styleUrls: ['./paypal.component.css']
 })
 export class PaypalComponent implements OnInit {
+  @Input() value: string;
+
+  private testValue = '2';
 
   public payPalConfig ? : IPayPalConfig;
+
 
   ngOnInit(): void {
       this.initConfig();
   }
 
   private initConfig(): void {
+    console.log(this.testValue);
+
       this.payPalConfig = {
           currency: 'EUR',
           clientId: 'sb',
@@ -29,7 +37,9 @@ export class PaypalComponent implements OnInit {
               purchase_units: [{
                   amount: {
                       currency_code: 'EUR',
-                      value: '9.99',
+                      // value: '9.99',
+                      value: this.testValue,
+
                       breakdown: {
                           item_total: {
                               currency_code: 'EUR',

@@ -48,7 +48,9 @@
         <div class="input-group-prepend" >
           <span class="input-group-text">US$</span>
         </div>
-        <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)" style=" height: 5rem;">
+        <form (submit)="addValue()">
+        <input [(ngModel)]="newValue" name="newValue" type="text" class="form-control" aria-label="Amount (to the nearest dollar)" style=" height: 5rem;" >
+      </form>
         <div class="input-group-append">
 
 
@@ -79,6 +81,7 @@
   </div>
 
 </div>
+<app-paypal [value]="10"></app-paypal>
 
 <app-right-side-bar></app-right-side-bar>
 <app-user-profile></app-user-profile>
