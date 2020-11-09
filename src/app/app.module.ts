@@ -19,6 +19,8 @@ import { LoginComponent } from './login/login.component';
 import { AppRoutingModule } from './app-routing.module';
 import { PaypalComponent } from './paypal/paypal.component';
 import { NgxPayPalModule } from 'ngx-paypal';
+import { AboutComponent } from './about/about.component';
+
 
 
 
@@ -35,10 +37,10 @@ import { NgxPayPalModule } from 'ngx-paypal';
     RightSideBarComponent,
     SettleUpComponent,
     UserProfileComponent,
-
     LoginComponent,
-      PaypalComponent,
-      FacebookComponent
+    PaypalComponent,
+    FacebookComponent,
+    AboutComponent,
    ],
   imports: [
     BrowserModule,

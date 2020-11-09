@@ -1,3 +1,4 @@
+import { AboutComponent } from './about/about.component';
 import { PaypalComponent } from './paypal/paypal.component';
 import { SettleUpComponent } from './settle-up/settle-up.component';
 import { HelpComponent } from './help/help.component';
@@ -20,6 +21,7 @@ const routes: Routes = [
   {path: 'settleUp', component: SettleUpComponent},
   {path: 'paypal', component: PaypalComponent},
   {path: 'facebook', component: FacebookComponent},
+  {path: 'about', component: AboutComponent},
   {path: '', redirectTo: '/login', pathMatch: 'full'}
 ];
 @NgModule({

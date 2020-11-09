@@ -1,0 +1,174 @@
+.header{
+  height: 95px;
+
+}
+nav {
+  text-align: center;
+}
+nav ul{
+  margin:0;
+  padding:0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 70px;
+  padding-top: 25px;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+.main-page{
+  background-color:rgb(224, 221, 221);
+  position:absolute;
+  left: -3px;
+  top:99px;
+}
+.container {
+position: absolute;
+left: 178px;
+top: 247px;
+}
+
+.logo{
+  width:207px;
+  height:65 px;
+  position: absolute;
+  left: 293px;
+  top: 16px;
+}
+
+.home{
+  width: 50px;
+  height: 15px;
+  position: absolute;
+  left: 1005px;
+  top: 44px;
+
+}
+
+.About-Us {
+  width: 77px;
+  height: 15px;
+  position: absolute;
+  left: 1105px;
+  top: 44px;
+}
+
+.activity{
+  width: 62px;
+  height: 18px;
+  position: absolute;
+  left: 1216px;
+  top: 44px;
+}
+
+.Help{
+  width: 38px;
+  height: 18px;
+  position: absolute;
+  left: 1314px;
+  top: 44px;
+}
+
+.Sign-Up{
+  width: 65px;
+  height: 18px;
+  position: absolute;
+  left: 1388px;
+  top: 44px;
+
+}
+
+.twitter{
+  float: right;
+  width: 46px;
+  height: 46px;
+  position: absolute;
+  left:1588px;
+  top: 28px;
+
+}
+
+.facebook{
+  float: right;
+  width: 46px;
+  height: 46px;
+  position: absolute;
+  left:1527px;
+  top: 28px;
+}
+
+.backround{
+  width: 1923px;
+  height: 991px;
+  position: absolute;
+  left:-3px;
+  top: 99px;
+}
+
+.about-us-main{
+  width: 317px;
+  height: 49px;
+  position: absolute;
+  left: 375px;
+  top: 176px;
+}
+
+.base {
+  width: 1400px;
+  height: 752px;
+  position: absolute;
+  left: 270px;
+  top: 231px;
+}
+
+.payme {
+  width: 636px;
+  height: 19px;
+  position: absolute;
+  left: 376px;
+  top: 344px;
+}
+
+.blah {
+/* Style for "PayMe is a" */
+width: 1198px;
+height: 83px;
+color: #6f6f6f;
+font-family: "Myriad Pro";
+font-size: 14px;
+font-weight: 400;
+font-style: normal;
+letter-spacing: normal;
+line-height: 30px;
+position: absolute;
+left:375px;
+top: 408px;
+}
+
+.our_group_members{
+  width: 159px;
+height: 30px;
+color: #6f6f6f;
+font-family: "Myriad Pro";
+font-size: 16px;
+font-style: normal;
+letter-spacing: normal;
+line-height: 30px;
+text-align: left;
+position: absolute;
+left:375px;
+top: 550px;
+}
+
+.our_names{
+  position:absolute;
+  width: 400px;
+  left: 375px;
+  top: 600px
+
+}
