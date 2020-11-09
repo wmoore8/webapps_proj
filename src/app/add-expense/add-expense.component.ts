@@ -6,22 +6,27 @@ import { Component, OnInit,Input } from '@angular/core';
   styleUrls: ['./add-expense.component.css']
 })
 export class AddExpenseComponent implements OnInit {
-  @Input() value:string;
-
-  // public value;
-
-  public newValue;
+  public newValue = '0';
+  public displayMainContent;
+  public displayContent;
+  public displayName;
 
   constructor() { }
 
   ngOnInit(): void {
+    this.displayMainContent=true;
+    this.displayContent=false;
+    this.displayName=false;
   }
 
   public addValue() {
-    this.value = this.newValue;
-    console.log(this.value);
-
-
+    this.displayMainContent=false;
+    this.displayContent=true;
    }
+
+   public display(){
+      this.displayName = true;
+   }
+
 
 }

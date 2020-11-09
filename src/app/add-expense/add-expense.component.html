@@ -21,10 +21,11 @@
   }
   </style>
 
-
+<div *ngIf="displayMainContent">
  <div class="container-fluid" style="width: 100%;">
   <p class="page_title card-subtitle card-text" style="font-size : 60px; position:relative;top:100px;left:300px; " >ADD AN EXPENSE</p>
 </div>
+
 
 
 <div class="col-md-7 mb-3" style="position:relative;top:110px;left:299px; height: 55rem;">
@@ -33,9 +34,18 @@
 
     <div class="card-header"style="width: 100%; height: 5rem;">
 
-
       <p class="page_title card-subtitle card-text">With you and :</p>
-      <button type="button" class="btn btn-primary btn-circle btn-md" style="font-size : 20px;" >+</button>
+
+      <div *ngIf="displayName">
+      <div class="Jordi_Prims">
+        <img src="assets/images/Jordi_Prims.png" alt="profile name" >
+      </div>
+      <div class="Layer_40">
+        <img src="assets/images/Layer_40.png" alt="profile name" >
+      </div>
+      </div>
+
+      <button type="button" (click)="display()" class="btn btn-primary btn-circle btn-md" style="font-size : 20px;" >+</button>
 
 
   </div>
@@ -43,14 +53,17 @@
     <div class="card-body">
 
 
-  <div class="container-fluid" style="width: 70%;">
-      <div class="input-group mb-3" style=" position:relative;top:30px;" >
+  <div class="container-fluid" style="width: 40%;">
+
+      <div class="input-group mb-3" style=" position:relative; top:30px; " >
         <div class="input-group-prepend" >
           <span class="input-group-text">US$</span>
         </div>
         <form (submit)="addValue()">
-        <input [(ngModel)]="newValue" name="newValue" type="text" class="form-control" aria-label="Amount (to the nearest dollar)" style=" height: 5rem;" >
-      </form>
+        <input [(ngModel)]="newValue" name="newValue" type="text" class="form-control" aria-label="Amount (to the nearest dollar)" style=" height: 4rem;" >
+        </form>
+
+
         <div class="input-group-append">
 
 
@@ -68,20 +81,23 @@
 
     <div class="container-fluid" style="width: 100%; position:relative;top:90px;">
       <div class="col-sm-12 text-center">
-      <!-- <button type="button" class="btn btn-primary btn-lg">Paid by you and split equally</button> -->
+      <!-- <a href="paypal"> -->
+      <button (click)="addValue()" class="button" >Paid by you and split equally</button>
 
 
-      <a href="paypal">
-      <button class="button">Paid by you and split equally</button>
-      </a>
 
     </div>
     </div>
     </div>
   </div>
 
+  </div>
+
 </div>
-<app-paypal [value]="10"></app-paypal>
+<div *ngIf="displayContent">
+  <app-paypal  [value]="newValue"></app-paypal>
+</div>
+
 
 <app-right-side-bar></app-right-side-bar>
 <app-user-profile></app-user-profile>

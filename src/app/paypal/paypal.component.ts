@@ -2,7 +2,8 @@ import {
   Component,
   OnInit,
   Input,
-  Output
+  Output,
+  EventEmitter
 } from '@angular/core';
 import {
   IPayPalConfig,
@@ -15,7 +16,9 @@ import {
   styleUrls: ['./paypal.component.css']
 })
 export class PaypalComponent implements OnInit {
-  @Input() value: string;
+  @Input() value: string = '';
+
+  // @Output() newValue = new EventEmitter<string>();
 
   private testValue = '2';
 
@@ -24,26 +27,33 @@ export class PaypalComponent implements OnInit {
 
   ngOnInit(): void {
       this.initConfig();
+      console.log(this.value);
+      console.log(this.testValue);
+      this.testValue = this.value;
+      console.log(this.value);
+      console.log(this.testValue);
+
   }
 
   private initConfig(): void {
-    console.log(this.testValue);
+
 
       this.payPalConfig = {
-          currency: 'EUR',
+          currency: 'USD',
           clientId: 'sb',
           createOrderOnClient: (data) => < ICreateOrderRequest > {
               intent: 'CAPTURE',
               purchase_units: [{
                   amount: {
-                      currency_code: 'EUR',
+                      currency_code: 'USD',
                       // value: '9.99',
                       value: this.testValue,
 
                       breakdown: {
                           item_total: {
-                              currency_code: 'EUR',
-                              value: '9.99'
+                              currency_code: 'USD',
+                              // value: '9.99'
+                              value: this.testValue
                           }
                       }
                   },
@@ -52,8 +62,8 @@ export class PaypalComponent implements OnInit {
                       quantity: '1',
                       category: 'DIGITAL_GOODS',
                       unit_amount: {
-                          currency_code: 'EUR',
-                          value: '9.99',
+                          currency_code: 'USD',
+                          value: this.testValue,
                       },
                   }]
               }]
