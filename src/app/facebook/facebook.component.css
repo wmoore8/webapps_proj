@@ -1,0 +1,7 @@
+
+@import "~bootstrap/dist/css/bootstrap.css";
+.fb-login-button{
+  position: absolute;
+  top: 100pt;
+  left: 500pt;
+}

@@ -8,6 +8,7 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
+import { FacebookComponent } from './facebook/facebook.component';
 
 const routes: Routes = [
   {path: 'dashboard', component:DashboardComponent},
@@ -18,6 +19,7 @@ const routes: Routes = [
   {path: 'addExpense',component: AddExpenseComponent},
   {path: 'settleUp', component: SettleUpComponent},
   {path: 'paypal', component: PaypalComponent},
+  {path: 'facebook', component: FacebookComponent},
   {path: '', redirectTo: '/login', pathMatch: 'full'}
 ];
 @NgModule({
