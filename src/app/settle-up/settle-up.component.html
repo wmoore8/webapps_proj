@@ -21,7 +21,7 @@
   }
   </style>
 
-
+<div *ngIf="displayMainContent">
  <div class="container-fluid" style="width: 100%;">
   <p class="page_title card-subtitle card-text" style="font-size : 60px; position:relative;top:100px;left:300px; " >SETTLE UP</p>
 </div>
@@ -35,49 +35,78 @@
 
 
       <p class="page_title card-subtitle card-text">Paid :</p>
-      <button type="button" class="btn btn-primary btn-circle btn-md" style="font-size : 20px;" >+</button>
+      <div *ngIf="displayName">
+        <div class="Jordi_Prims">
+          <img src="assets/images/Jordi_Prims.png" alt="profile name" >
+        </div>
+        <div class="Layer_40">
+          <img src="assets/images/Layer_40.png" alt="profile name" >
+        </div>
+        </div>
+
+        <button type="button" (click)="display()" class="btn btn-primary btn-circle btn-md" style="font-size : 20px;" >+</button>
 
 
   </div>
 
-    <div class="card-body">
 
 
-  <div class="container-fluid" style="width: 70%;">
-      <div class="input-group mb-3" style=" position:relative;top:30px;" >
-        <div class="input-group-prepend" >
-          <span class="input-group-text">US$</span>
+
+
+      <div class="card-body">
+
+
+        <div class="container-fluid" style="width: 40%;">
+
+            <div class="input-group mb-3" style=" position:relative; top:30px; " >
+              <div class="input-group-prepend" >
+                <span class="input-group-text">US$</span>
+              </div>
+              <form (submit)="addValue()">
+              <input [(ngModel)]="newValue" name="newValue" type="text" class="form-control" aria-label="Amount (to the nearest dollar)" style=" height: 4rem;" >
+              </form>
+
+
+              <div class="input-group-append">
+
+
+              </div>
+            </div>
+          </div>
+
+          <div class="container-fluid" style="width: 70%; position:relative;top:50px;">
+          <div class="form-group">
+            <label for="name" class="control-label" style="color: #acb2bd; font-size: 16px;">Description: </label>
+            <input type="text1" name="name" class="form-control" id="name" >
+          </div>
         </div>
-        <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)" style=" height: 5rem;">
-        <div class="input-group-append">
 
+
+          <div class="container-fluid" style="width: 100%; position:relative;top:90px;">
+            <div class="col-sm-12 text-center">
+
+            <button (click)="addValue()" class="button" >Paid by you and split equally</button>
+
+
+
+          </div>
+          </div>
+          </div>
+        </div>
 
         </div>
+
+
+
+
+
       </div>
-    </div>
-
-    <div class="container-fluid" style="width: 70%; position:relative;top:50px;">
-    <div class="form-group">
-      <label for="name" class="control-label" style="color: #acb2bd; font-size: 16px;">Description: </label>
-      <input type="text1" name="name" class="form-control" id="name" >
-    </div>
-  </div>
+      <div *ngIf="displayContent">
+        <app-paypal  [value]="newValue"></app-paypal>
+      </div>
 
 
-    <div class="container-fluid" style="width: 100%; position:relative;top:90px;">
-      <div class="col-sm-12 text-center">
 
-        <a href="paypal">
-      <button class="button">Paid</button>
-      </a>
-
-    </div>
-    </div>
-    </div>
-  </div>
-
-</div>
-
-<app-right-side-bar></app-right-side-bar>
-<app-user-profile></app-user-profile>
-<router-outlet></router-outlet>
+      <app-right-side-bar></app-right-side-bar>
+      <app-user-profile></app-user-profile>
+      <router-outlet></router-outlet>
