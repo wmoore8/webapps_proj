@@ -1,0 +1,21 @@
+.logout {
+  text-align: center;
+}
+.login {
+  text-align: center;
+}
+
+.app-logo-name {
+  padding-top: 60px;
+
+  /* Style for "PayMe" */
+  color: #0149a1;
+  font-family: "Robo-Light", sans-serif;
+  font-size: 42px;
+  font-style: italic;
+  letter-spacing: normal;
+  line-height: 20.87px;
+  text-align: center;
+}
+
+

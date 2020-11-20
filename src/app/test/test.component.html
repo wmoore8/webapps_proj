@@ -1,0 +1,17 @@
+
+<ng-template #showLogin>
+  <div class = "login">
+  <button (click)="login()">Login with Google</button>
+</div>
+</ng-template>
+
+
+
+<div *ngIf="auth.user | async as user; else showLogin">
+  <a href = "dashboard">
+  <div class="app-logo-name"> Continue to PayMe </div>
+  </a>
+<br>
+<div class = "logout">
+  <button (click)="logout()">Logout</button>
+</div>
